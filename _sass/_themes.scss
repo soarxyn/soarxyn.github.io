@@ -6,29 +6,24 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
-  --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
-  --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
-  --global-highlight-color: #{v.$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$black-color, "red", v.$space: rgb)},
-    #{color.channel(v.$black-color, "green", v.$space: rgb)},
-    #{color.channel(v.$black-color, "blue", v.$space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{v.$white-color};
-  --global-newsletter-bg-color: #{v.$white-color};
-  --global-newsletter-text-color: #{v.$black-color};
+  --global-bg-color: #{v.$ds-paper};
+  --global-code-bg-color: #{v.$ds-paper-2};
+  --global-text-color: #{v.$ds-ink};
+  --global-text-color-light: #{v.$ds-ink-3};
+  --global-theme-color: #{v.$ds-accent};
+  --global-hover-color: #{v.$ds-accent};
+  --global-hover-text-color: #{v.$ds-paper};
+  --global-footer-bg-color: #{v.$ds-ink};
+  --global-footer-text-color: #{v.$ds-ink-3};
+  --global-footer-link-color: #{v.$ds-paper};
+  --global-distill-app-color: #{v.$ds-ink-3};
+  --global-divider-color: #{v.$ds-rule};
+  --global-card-bg-color: #{v.$ds-paper-2};
+  --global-highlight-color: #{v.$ds-accent};
+  --global-back-to-top-bg-color: oklch(0.22 0.012 60 / 0.4);
+  --global-back-to-top-text-color: #{v.$ds-paper};
+  --global-newsletter-bg-color: #{v.$ds-paper-2};
+  --global-newsletter-text-color: #{v.$ds-ink};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -76,28 +71,23 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
-  --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
-  --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$white-color, "red", v.$space: rgb)},
-    #{color.channel(v.$white-color, "green", v.$space: rgb)},
-    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{v.$black-color};
-  --global-newsletter-bg-color: #{v.$grey-color-light};
-  --global-newsletter-text-color: #{v.$grey-color-dark};
+  --global-bg-color: #{v.$ds-inverse-bg};
+  --global-code-bg-color: oklch(0.24 0.012 62);
+  --global-text-color: #{v.$ds-inverse-fg};
+  --global-text-color-light: #{v.$ds-ink-3};
+  --global-theme-color: #{v.$ds-accent-dark};
+  --global-hover-color: #{v.$ds-accent-dark};
+  --global-hover-text-color: #{v.$ds-inverse-bg};
+  --global-footer-bg-color: oklch(0.14 0.008 58);
+  --global-footer-text-color: #{v.$ds-ink-3};
+  --global-footer-link-color: #{v.$ds-inverse-fg};
+  --global-distill-app-color: #{v.$ds-ink-3};
+  --global-divider-color: oklch(0.32 0.01 63);
+  --global-card-bg-color: oklch(0.22 0.012 60);
+  --global-back-to-top-bg-color: oklch(0.95 0.015 85 / 0.5);
+  --global-back-to-top-text-color: #{v.$ds-inverse-bg};
+  --global-newsletter-bg-color: oklch(0.22 0.012 60);
+  --global-newsletter-text-color: #{v.$ds-inverse-fg};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;

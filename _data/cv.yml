@@ -1,10 +1,10 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Gabriel Macias de Oliveira
+  label: Research Assistant
+  email: macias.oliveira.gabriel@gmail.com
+  location: Düsseldorf, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Post-masters ML researcher with published biomedical research and production ML experience across financial, industrial, and biometric systems. Currently a research assistant at HHU Düsseldorf working on generative models for medical imaging. Interested in the foundations of generative modeling for scientific domains, particularly efficiency, controllability, and safety as the technical problems that determine whether these systems can be trusted in real applications. Seeking PhD positions and research collaborations.
 
   social_networks:
     - network: X
@@ -23,66 +23,64 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: RWTH Aachen University
+        location: Aachen, Germany
+        area: Electrical and Computer Engineering
+        studyType: MSc.
+        start_date: 2022-10
+        end_date: 2024-11
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Top 2 University in Germany in Engineering. GPA: 1.1 / 1.0 with distinction, top 1% of class."
+          - "Part of the highly selective T.I.M.E. Double Degree program (< 5% approved per year)."
+          - "Member of the Dean's List 2022, top 5% of year."
+          - "Master Thesis: Enhancing Chest X-Ray Zero-Shot Classification via Extended Vision-Language Models."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of São Paulo
+        location: São Paulo, Brazil
+        area: Electrical and Computer Engineering
+        studyType: BSc.
+        start_date: 2019-01
+        end_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Top 1 University of Latin America in Engineering. GPA: 9.2 / 10.0, ranked 1st out of 243 in class. Ranked 8th in National Entrance Exam."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: HHU Düsseldorf
+        position: Research Assistant
+        location: Düsseldorf, Germany
+        start_date: 2026-02
         highlights:
-          - Relativity
-          - Description 2.
+          - Built an end-to-end pipeline for automated acquisition and analysis of fungal infections in plant cell microscopy.
+          - Developed a synthetic data generation pipeline using generative models for neuron spine segmentation in confocal microscopy, addressing dense annotation scarcity.
+          - "Implemented and trained foundational generative architectures from scratch (DDPM, DiT, VQGAN, LLMs) to study their scaling behaviors and sampling efficiency."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: BTG Pactual
+        position: Machine Learning Engineer
+        location: São Paulo, Brazil
+        start_date: 2025-08
+        end_date: 2026-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Architected and deployed highly concurrent, autonomous agent systems, optimizing inference latency to handle massive client-interaction scaling (10k+ sessions/month)."
+          - "Engineered a high-throughput OCR pipeline, optimizing model deployment, to automate tax calculation from foreign currency invoices, achieving a 40× reduction in processing time while maintaining 98% accuracy."
+          - "Led the technical development of an internal model monitoring framework, ensuring robust evaluation and safety constraints across 50+ deployed machine learning services."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: QI Tech
+        position: Machine Learning Engineering Intern
+        location: Brazil
+        start_date: 2024-11
+        end_date: 2025-02
+        highlights:
+          - "Developed and optimized a biometric spoof-detection algorithm, directly improving model robustness by 5% and satisfying strict ISO 30107-3 Level 2 technical requirements."
+          - "Designed and implemented an end-to-end MLOps pipeline for automated training, evaluation, deployment, and rollback of risk models."
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Robert Bosch GmbH
+        position: Software Engineering Intern
+        location: Germany
+        start_date: 2023-10
+        end_date: 2024-10
+        highlights:
+          - "Engineered a RAG framework for automatic mechanical requirements extraction from image and text, reducing the processing time by 10× per document."
+          - "Implemented and optimized CI/CD pipelines for MEMS sensor software."
 
     Volunteer:
       - company: People's Climate March
@@ -96,45 +94,79 @@ cv:
           - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Springorum Commemorative Coin
+        date: 2024
+        awarder: RWTH Aachen University
+        summary: Awarded for outstanding academic achievement upon degree completion.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: "Academic Merit Scholarship for International Exchanges"
+        date: 2022
+        awarder: ""
+        summary: "Highly competitive scholarship for international exchanges, awarded to < 1% of applicants (2022–2023)."
+
+      - title: FAPESP Young Researchers Scholarship
+        date: 2021
+        awarder: FAPESP
+        summary: ""
+
+      - title: Mathematics Institute Teaching Scholarship
+        date: 2020
+        awarder: University of São Paulo
+        summary: "Awarded to < 0.1% of candidates."
+
+      - title: Brazilian Ministry of Health Grant
+        date: 2020
+        awarder: Brazilian Ministry of Health
+        summary: ""
+
+      - title: "State Medalist, Physics/Math/Chem Olympiads"
+        date: 2018
+        awarder: ""
+        summary: "State medals in Physics, Mathematics, and Chemistry Olympiads (2014–2018)."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Self-help mobile messaging intervention for depression among older adults in resource-limited settings: a randomized controlled trial"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Scazufca, M.
+          - Nakamura, C.A.
+          - Macias, G.
+          - et al.
+        publisher: Nature Medicine
+        releaseDate: 2024
+        summary: "Nature Medicine 30, 1127–1133 (2024). Designed and implemented the cohort selection pipeline from state health databases, identifying 700 eligible participants from 300k+ records under the trial's inclusion criteria."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "A self-help mobile messaging intervention to improve subthreshold depressive symptoms among older adults in a socioeconomically deprived region of Brazil (PRODIGITAL): a pragmatic, two-arm randomised controlled trial"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Nakamura, C.A.
+          - Scazufca, M.
+          - Macias, G.
+          - et al.
+        publisher: "The Lancet Regional Health – Americas"
+        releaseDate: 2024
+        summary: "The Lancet Regional Health – Americas 39 (2024). Built the data infrastructure tracking 10k+ weekly participant interactions that fed the trial's primary outcome analysis."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Teaching:
+      - company: HHU Düsseldorf
+        position: Teaching Assistant
+        location: Düsseldorf, Germany
+        start_date: 2026
+        highlights:
+          - Image Processing and Analysis
+          - Advanced ML for Medical Data
+
+      - company: RWTH Aachen University
+        position: Teaching Assistant
+        location: Aachen, Germany
+        start_date: 2023
+        highlights:
+          - Digital Image Processing
+
+      - company: University of São Paulo
+        position: Teaching Assistant
+        location: São Paulo, Brazil
+        start_date: 2020
+        highlights:
+          - "Differential and Integral Calculus I & II"
 
     Skills:
       - name: Physics

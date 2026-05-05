@@ -50,3 +50,18 @@ $back-to-top-width: $back-to-top-diameter;
 
 // Max width default
 $max-content-width: 930px !default;
+
+// Design system — editorial ink-on-paper (DESIGN_SYSTEM.md)
+$ds-paper:       oklch(0.945 0.018 85) !default; // cream page background
+$ds-paper-2:     oklch(0.92  0.022 82) !default; // code blocks, card backgrounds
+$ds-ink:         oklch(0.22  0.012 60) !default; // primary text, warm near-black
+$ds-ink-2:       oklch(0.38  0.012 60) !default; // secondary text
+$ds-ink-3:       oklch(0.55  0.014 60) !default; // metadata, muted text
+$ds-rule:        oklch(0.78  0.018 70) !default; // hairline dividers
+$ds-rule-soft:   oklch(0.86  0.018 75) !default; // soft borders
+$ds-accent:      oklch(0.42  0.18 264) !default; // royal blue accent (light mode)
+$ds-warm:        oklch(0.45  0.06  50) !default; // secondary warm accent
+$ds-inverse-bg:  oklch(0.18  0.01  60) !default; // dark mode background
+$ds-inverse-fg:  oklch(0.95  0.015 85) !default; // dark mode primary text
+$ds-accent-dark: oklch(0.65  0.18 264) !default; // royal blue legible on dark bg
+$ds-warm-dark:   oklch(0.72  0.08  50) !default; // warm accent for dark mode
